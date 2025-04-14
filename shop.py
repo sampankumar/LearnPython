@@ -16,7 +16,7 @@ if what_customer_origanally_wants == "toys":
         print("Sorry.We don't have that")
 elif what_customer_origanally_wants == "phones":
     print("We have" + str(phones))
-    choice = input("Which one do you want? ").casefold()
+    choice = input("Which one do you want?").casefold()
     if choice in phones:
         print("OK," + choice + " is for " + str(phonesprice) + " pounds")
     else:
