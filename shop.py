@@ -23,7 +23,7 @@ elif what_customer_origanally_wants == "phones":
         print("Sorry.We don't have that")
 elif what_customer_origanally_wants == "stationary":
     print("We have" + str(stationary))
-    choice = input("Which one do you want?" ).casefold()
+    choice = input("Which one do you want? " ).casefold()
     if choice in stationary:
         print("OK," + choice + " is for " + str(stationaryprice) + " pounds")
     else:
