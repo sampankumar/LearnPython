@@ -49,4 +49,5 @@ elif what_customer_origanally_wants == "stationary":
         print("OK," + choice + " is for " + str(stationaryprice) + " pounds")
     else:
         print("Sorry.We don't have that")
-else:print("Sorry,we don't have that")
+else:
+    print("Sorry,we don't have that")
